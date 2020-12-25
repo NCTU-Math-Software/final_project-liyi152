@@ -14,7 +14,7 @@ step 2: 計算三角形ABO,ACO,BCO(O為原點)面積
 step 3: 判斷三點是否可呈三角形
 平面上三點的關係:
 1.共點: A=B or A=C or B=C
-2.共線: abs(ab/norm(ab))==abs(ac/norm(ac))
+2.共線: abs(ab/norm(ab))==abs(ac/norm(ac)) (ab是指A跟B點所呈向量,同理ac)
 3.呈三角形
 
 step 4: 利用面積關係求出原點位置
