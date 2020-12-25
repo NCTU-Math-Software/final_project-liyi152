@@ -35,6 +35,7 @@ if(check==0)
         end
     end
 end
+%作圖
 A=X(:,1);
 B=X(:,2);
 fill(A,B,'w');
