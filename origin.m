@@ -1,4 +1,4 @@
-function project(X) %X為三個點的矩陣
+function origin(X) %X為三個點的矩陣
 %取出三個點A,B,C
 A=X(1,1:2); 
 B=X(2,1:2);
