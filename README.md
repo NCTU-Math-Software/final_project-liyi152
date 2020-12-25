@@ -19,8 +19,8 @@ step 3: 判斷三點是否可呈三角形
 
 step 4: 利用面積關係求出原點位置
 面積關係的情況:
-1.原點在內部: abo+aco+bco=abc
-2.原點在外部: ab0+aco+bco>abc
-3.原點在邊界上: abo,aco, or bco 其中一個面積為0
+1.原點在內部: ABO+ACO+BCO=ABC
+2.原點在外部: ABO+ACO+BCO>ABC
+3.原點在邊界上: ABO, ACO, or BCO 其中一個面積為0
 
 step 5: 畫出圖
