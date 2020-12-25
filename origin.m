@@ -35,4 +35,9 @@ if(check==0)
         end
     end
 end
+A=X(:,1);
+B=X(:,2);
+fill(A,B,'w');
+hold on
+plot(0,0,'o');
 end
