@@ -19,7 +19,7 @@ if(A==B|A==C|B==C)
     disp('共點');
     check=1;
 end
-if(abs(ab/norm(ab))==abs(ac/norm(ac)))
+if(abs(ab/norm(ab))-abs(ac/norm(ac))<=10^-5)
     disp('共線');
     check=1;
 end
