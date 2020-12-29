@@ -9,19 +9,27 @@ output: 原點的位置並畫出來 e.g. '在內部'以及三角形和原點的�
 #### step 2: 計算三角形ABO,ACO,BCO(O為原點)面積
 
 計算面積的方法:
+
 在平面上給定兩向量a=(a1,a2),b=(b1,b2)
+
 則兩向量構成的三角形=1/2*|a1*b2-a2*b1|(證明參考:https://youtu.be/n-S63_goDFg)
 
 #### step 3: 判斷三點是否可呈三角形
 平面上三點的關係:
+
 1.共點: A=B or A=C or B=C
+
 2.共線: abs(ab/norm(ab))==abs(ac/norm(ac)) (ab是指A跟B點所呈向量,同理ac)
+
 3.呈三角形
 
 #### step 4: 利用面積關係求出原點位置
 面積關係的情況:
+
 1.原點在內部: ABO+ACO+BCO=ABC
+
 2.原點在外部: ABO+ACO+BCO>ABC
+
 3.原點在邊界上: ABO, ACO, or BCO 其中一個面積為0
 
 #### step 5: 畫出圖
