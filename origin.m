@@ -36,9 +36,9 @@ if(check==0)
     end
 end
 %作圖
-A=X(:,1);
-B=X(:,2);
-fill(A,B,'w');
+M=X(:,1);
+N=X(:,2);
+fill(M,N,'w');
 hold on
-plot(0,0,'o');
+plot(0,0,'o',M,N,'o');
 end
