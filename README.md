@@ -11,7 +11,7 @@ output: 原點的位置並畫出來 e.g. '在內部'以及三角形和原點的�
 在平面上給定兩向量a=(a1,a2),b=(b1,b2)
 則兩向量構成的三角形=1/2*|a1*b2-a2*b1|(證明參考:https://youtu.be/n-S63_goDFg)
 
-step 3: 判斷三點是否可呈三角形
+##### step 3: 判斷三點是否可呈三角形
 平面上三點的關係:
 1.共點: A=B or A=C or B=C
 2.共線: abs(ab/norm(ab))==abs(ac/norm(ac)) (ab是指A跟B點所呈向量,同理ac)
